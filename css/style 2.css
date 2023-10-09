@@ -1,0 +1,394 @@
+/*estilização do corpo do site*/
+body {
+    font-family: Nunito, sans-serif;
+    color: black;
+    background-color: #7f7f7f54;
+}
+
+/*estilização do cabeçario*/
+header {
+    background-color: #000000a1;
+    color: #ffffff;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #000000;
+}
+
+header h1 {
+    color: #f1f1f1;
+    text-shadow: 2px 2px #000000;
+    align-items: center;
+    text-align: center;
+}
+
+/*estilização da navegação*/
+nav {
+    background-color: #000000b8;
+    color: #f3f3f3;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    width: 98%;
+}
+
+nav a:hover {
+    color: #ff0000;
+}
+
+nav>a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 50;
+    font-family: Yellowtail, serif;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    max-width: 100%;
+    margin-left: 220px;
+    align-items: center;
+    text-align: center;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*estilização sobre mim*/
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 10px 10px 20px 20px;
+    background-color: #000000b8;
+    color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #000000;
+}
+
+#sobre h2 {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#sobre p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+
+#sobre img {
+    width: 200px;
+}
+
+/*estilização dos meus projetos/portifolio*/
+#portifolio {
+    display: flex;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #000000;
+    background-color: #2c2c2c7a;
+    color: #ffffff;
+}
+
+.titulo1 {
+    text-align: center;
+    font-size: larger;
+    margin-left: 587px;
+    width: 270px;
+}
+
+
+.projeto1 {
+    border: 1px solid #ffffff5d;
+    border-radius: 7px;
+    box-shadow: 4px 4px 4px 2px #000000;
+    background-color: #00000065;
+    text-align: justify;
+    padding: 20px;
+    margin: 1rem;
+}
+
+.projeto1 img {
+    max-width: 100%;
+
+}
+
+.projeto1:hover {
+    transform: scale(1.1);
+}
+
+.projeto1 img:hover {
+    transform: scale(1.0);
+}
+
+.projeto2 {
+    border: 1px solid #ffffff5d;
+    border-radius: 7px;
+    box-shadow: 4px 4px 4px 2px #000000;
+    background-color: #00000065;
+    text-align: justify;
+    padding: 20px;
+    margin: 1rem;
+}
+
+.projeto2 img {
+    max-width: 100%;
+}
+
+.projeto2:hover {
+    transform: scale(1.1);
+}
+
+.projeto2 img:hover {
+    transform: scale(1.0);
+}
+
+.projeto3 {
+    border: 1px solid #ffffff5d;
+    border-radius: 7px;
+    box-shadow: 4px 4px 4px 2px #000000;
+    background-color: #00000065;
+    text-align: justify;
+    padding: 20px;
+    margin: 1rem;
+}
+
+.projeto3 img {
+    max-width: 100%;
+}
+
+.projeto3:hover {
+    transform: scale(1.1);
+}
+
+.projeto3 img:hover {
+    transform: scale(1.0);
+}
+
+.projeto4 {
+    border: 1px solid #ffffff5d;
+    border-radius: 7px;
+    box-shadow: 4px 4px 4px 2px #000000;
+    background-color: #00000065;
+    text-align: justify;
+    padding: 20px;
+    margin: 1rem;
+}
+
+.projeto4 img {
+    max-width: 100%;
+}
+
+.projeto4:hover {
+    transform: scale(1.1);
+}
+
+.projeto4 img:hover {
+    transform: scale(1.0);
+}
+
+/*minhas habilidades*/
+#habilidades {
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #000000;
+    background-color: #2c2c2c7a;
+    color: #000000;
+}
+
+.nomes {
+    display: flex;
+    margin-left: 450px;
+}
+
+.nome1 {
+    margin: 3rem;
+}
+
+.nome2 {
+    margin: 3rem;
+}
+
+.nome3 {
+    margin: 3rem;
+}
+
+.imagens {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    margin-left: 40px;
+
+}
+
+.imagens h3 {
+    margin-top: 10px;
+}
+
+.imagens img {
+    width: 90px;
+    height: 90px;
+
+}
+
+.titulo3 {
+    text-align: center;
+    font-size: larger;
+    margin-left: 620px;
+    width: 200px;
+    height: 100px;
+}
+
+/*estlização da parte de contato*/
+#contato {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    background-color: #00000051;
+    box-shadow: 4px 4px 4px 1px #000000;
+    border-radius: 5px;
+}
+
+.titulo2 {
+    text-align: center;
+    font-size: larger;
+    margin-left: 610px;
+    width: 205px;
+    height: 100px;
+}
+
+#contato img {
+    width: 40px;
+    height: 35px;
+    margin-left: 1300%;
+}
+
+.tell {
+    margin: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.email {
+    margin: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.github {
+    margin: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.link {
+    margin: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.insta {
+    margin: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+/*rodape*/
+footer {
+    text-align: center;
+}
+
+
+
+
+
+ /* Estilos para telas pequenas */
+ @media screen and (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+    header {
+        padding: 1rem;
+    }
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    nav ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    #sobre {
+        padding: 20px;
+    }
+    #portifolio {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .titulo1 {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .projeto1,
+    .projeto2,
+    .projeto3,
+    .projeto4 {
+        margin: 10px 0;
+    }
+    .imagens {
+        flex-direction: column;
+        margin: 10px 0;
+    }
+    .imagens h3 {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .imagens img {
+        width: 50px;
+        height: 50px;
+    }
+    .titulo3 {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+    #habilidades {
+        padding: 20px;
+    }
+    .nome1,
+    .nome2,
+    .nome3 {
+        margin: 0;
+    }
+    .titulo2 {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+    #contato {
+        padding: 20px;
+    }
+    #contato img {
+        width: 30px;
+        height: 30px;
+        margin-left: 0;
+    }
+}
